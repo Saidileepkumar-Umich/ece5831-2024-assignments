@@ -17,7 +17,7 @@ def preprocess_image(image_path):
 
 def main(image_path, true_label):
     # Load the trained model
-    with open("trained_mnist_model.pkl", "rb") as f:
+    with open("Mukkamala_mnist_model.pkl", "rb") as f:
         model = pickle.load(f)
     
     # Preprocess the input image
