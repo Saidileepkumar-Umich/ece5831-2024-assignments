@@ -46,6 +46,6 @@ for i in range(iterations):
         print(f"Iteration {i}/{iterations}, Loss: {loss:.4f}")
 
 # Save the model to a .pkl file
-with open("trained_mnist_model.pkl", "wb") as f:
+with open("Mukkamala_mnist_model.pkl", "wb") as f:
     pickle.dump(model, f)
     print("Model saved to trained_mnist_model.pkl")
